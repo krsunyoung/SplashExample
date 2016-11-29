@@ -10,7 +10,8 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="com.bit2016.splashexample.MainActivity">
+            android:name="com.bit2016.splashexample.MainActivity"
+            android:theme="@style/Transparent">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -20,9 +21,11 @@
         <activity
             android:name="com.bit2016.splashexample.SplashActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/SplashTheme"
             android:excludeFromRecents="true"
-            android:noHistory="true"/>
+            android:noHistory="true"
+            android:theme="@style/SplashTheme"
+            />
+
 
     </application>
 
